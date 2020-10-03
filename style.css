@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	box-sizing: border-box;
+	padding: 150px 40px;
+	background-image: url(images/bg-mobile.png);
+}
+
+.section-1 {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: hsl(228, 56%, 26%);
+	height: 250px;
+	justify-content: space-evenly;
+	padding: 0 0 0 50px;
+	margin: 20px 0;
+	border-radius: 15px 130px 15px 15px;
+}
+.main-logo {
+	
+
+}
+.main-logo img {
+	
+}
+.icons img {
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+	padding: 10px;
+	background-color: hsl(229, 57%, 11%);
+
+}
+.section2 {
+	background-color: hsl(228, 56%, 26%);
+	margin: 20px 0;
+	padding: 40px;
+	color: white;
+	font-family: 'Raleway', sans-serif;	
+	font-size: .85rem;
+	border-radius: 15px;
+}
+.text {
+	text-align: center;
+	color: ;
+
+}
+.usage {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: 'Raleway', sans-serif;	
+}
+span {
+
+}
+.slider-container {
+	width: 100%;
+}
+.slider {
+	box-sizing: border-box;
+	margin: 20px 0;
+	-webkit-appearance: none;
+	width: 100%;
+	height: 15px;
+	background: gradient(hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+	border-radius: 15px;
+  }
+  
+  .slider:hover {
+	opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 20px;
+	height: 12px;
+	border-radius: 10px;
+	background: #4CAF50;
+	cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	background: #4CAF50;
+	cursor: pointer;
+  }
+/*#myRange {
+	width: 100%;
+}
+*/
+.data {
+
+}
+p {
+
+}
+
+.section3 {
+	display: flex;
+	background-color: white;
+	border: solid 1px black;
+	width: 200px;
+	height: 80px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	margin-left: 100px;
+	margin-top: -60px;
+	font-family: 'Raleway', sans-serif;	
+
+}
+.section3 span {
+	font-size: .75rem;
+	vertical-align: middle;
+	color: #aaaaaa;
+b
+}
+.section3 p {
+	font-size: 2.0rem;
+	font-weight: 700;
+
+}
+
